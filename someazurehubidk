@@ -18,11 +18,11 @@ local theme = {
     Container_Text_Color = Color3.fromRGB(255, 255, 255),
     Button_Text_Color = Color3.fromRGB(255, 255, 255),
     Toggle_Box_Color = Color3.fromRGB(31, 32, 33),
-    Toggle_Inner_Color = Color3.fromRGB(255, 92, 92),
+    Toggle_Inner_Color = Color3.fromRGB(255, 255, 255),
     Toggle_Text_Color = Color3.fromRGB(255, 255, 255),
     Toggle_Border_Color = Color3.fromRGB(50, 49, 50),
     Slider_Bar_Color = Color3.fromRGB(31, 32, 33),
-    Slider_Inner_Color = Color3.fromRGB(255, 92, 92),
+    Slider_Inner_Color = Color3.fromRGB(255, 255, 255),
     Slider_Text_Color = Color3.fromRGB(255, 255, 255),
     Slider_Border_Color = Color3.fromRGB(50, 49, 50),
     Dropdown_Text_Color = Color3.fromRGB(255, 255, 255),
@@ -32,7 +32,7 @@ local theme = {
     Dropdown_Option_Text_Color = Color3.fromRGB(255, 255, 255),
     TextBox_Text_Color = Color3.fromRGB(255, 255, 255),
     TextBox_Color = Color3.fromRGB(31, 32, 33),
-    TextBox_Underline_Color = Color3.fromRGB(255, 92, 92)
+    TextBox_Underline_Color = Color3.fromRGB(255, 255, 255)
 }
 
 --light theme
