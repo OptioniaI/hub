@@ -9,7 +9,7 @@
 ]]--
 
 --dark theme
-local dark_theme = {
+local theme = {
     Tab_Color = Color3.fromRGB(31, 32, 33),
     Tab_Text_Color = Color3.fromRGB(255, 255, 255),
     Description_Color = Color3.fromRGB(31, 32, 33),
@@ -36,7 +36,7 @@ local dark_theme = {
 }
 
 --light theme
-local theme = {
+local dark_theme = {
     Tab_Color = Color3.fromRGB(255, 255, 255),
     Tab_Text_Color = Color3.fromRGB(0, 0, 0),
     Description_Color = Color3.fromRGB(255, 255, 255),
@@ -96,7 +96,7 @@ function library:CreateTab(text, desc, mode)
     mode = mode or false
 	
     if mode then
-        theme = light_theme
+        theme = dark_theme
     elseif mode == nil then
         theme = _G.CustomTheme
     end
